@@ -1,0 +1,37 @@
+.Main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Title {
+    position: relative;
+}
+
+.Title-Content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Title-Paragraph {
+    font-size: 44px;
+    color: var(--white-color);
+    font-weight: 600;
+}
+.Title-Image img {
+    width: 100%;
+}
+.Title-Button {
+    margin-top: 30px;
+    padding: 10px 32px;
+    background-color: var(--blue-color);
+    border-radius: 4px;
+    color: var(--write-color);
+    font-size: 16px;
+
+}
